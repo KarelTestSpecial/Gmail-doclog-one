@@ -1,0 +1,23 @@
+{
+  "timeZone": "Europe/Brussels", 
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.modify",
+    "https://www.googleapis.com/auth/gmail.send",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+  ],
+  "gmail": {
+    "name": "Gmail DocLog One", 
+    "logoUrl": "https://drive.google.com/uc?export=view&id=1NtStivbqRPOimPVLP-qGq9F1WjcMjvuT",
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4",
+    "homepageTrigger": {
+      "runFunction": "buildHomepageCard"
+    }
+  }
+}
